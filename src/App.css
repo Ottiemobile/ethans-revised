@@ -1,5 +1,9 @@
+
+
 .App {
   text-align: center;
+  background-color: #e5e5e5;
+  height: 100% ;
 }
 
 .App-logo {
@@ -11,6 +15,12 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+
+button {
+  border-style: solid;
+  color: darkgray;
+  border-radius: 25px;
 }
 
 .App-header {
@@ -26,6 +36,7 @@
 
 .App-link {
   color: #61dafb;
+  text-decoration: none;
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +46,23 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+h1 {
+  text-decoration: none;
+  color: rgb(78, 89, 233);
+}
+
+.header {
+  background-color: #fca311;
+}
+
+.photo {
+  height: 200px;
+  width: 200px; 
+}
+
+.footer {
+  background-color: #14213d ;
+ 
 }
