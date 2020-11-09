@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/ethans-revised/static/css/main.2ce7acc9.chunk.css",
+    "main.js": "/ethans-revised/static/js/main.8723609b.chunk.js",
+    "main.js.map": "/ethans-revised/static/js/main.8723609b.chunk.js.map",
+    "runtime-main.js": "/ethans-revised/static/js/runtime-main.23b12de7.js",
+    "runtime-main.js.map": "/ethans-revised/static/js/runtime-main.23b12de7.js.map",
+    "static/js/2.08a24609.chunk.js": "/ethans-revised/static/js/2.08a24609.chunk.js",
+    "static/js/2.08a24609.chunk.js.map": "/ethans-revised/static/js/2.08a24609.chunk.js.map",
+    "static/js/3.8a828b1d.chunk.js": "/ethans-revised/static/js/3.8a828b1d.chunk.js",
+    "static/js/3.8a828b1d.chunk.js.map": "/ethans-revised/static/js/3.8a828b1d.chunk.js.map",
+    "index.html": "/ethans-revised/index.html",
+    "static/css/main.2ce7acc9.chunk.css.map": "/ethans-revised/static/css/main.2ce7acc9.chunk.css.map",
+    "static/js/2.08a24609.chunk.js.LICENSE.txt": "/ethans-revised/static/js/2.08a24609.chunk.js.LICENSE.txt",
+    "static/media/profile-pic.47943f55.jpg": "/ethans-revised/static/media/profile-pic.47943f55.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.23b12de7.js",
+    "static/js/2.08a24609.chunk.js",
+    "static/css/main.2ce7acc9.chunk.css",
+    "static/js/main.8723609b.chunk.js"
+  ]
+}
