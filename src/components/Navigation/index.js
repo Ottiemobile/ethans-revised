@@ -5,58 +5,53 @@ function Navigation(props) {
 
     return (
         <section className="navigation">
-            <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-                <div className="container">
+            <nav>
+                <div >
                     <button
-                        className="navbar-toggler"
-                        type="button"
-                        data-toggle="collapse"
-                        data-target="#navbarResponsive"
-                        aria-controls="navbarResponsive"
-                        aria-expanded="false"
-                        aria-label="Toggle navigation">
-                            <span className="navbar-toggler-icon"></span>
+                        
+                        type="button">
+                            <span></span>
                     </button>
 
                     <div className="collapse-navbar-collapse" id="navbarResponsive">
                         <ul className="navbar-nav ml-auto">
 
                             <li
-                                className={`nav-item ${
+                                className={` ${
                                     props.location.pathname=== "/" ? "active" : ""
                                 }`}
                             >
-                                <Link className="nav-link" to="/">
+                                <Link  to="/">
                                     Home
-                                    <span className="sr-only">(current)</span>
+                                    <span></span>
                                 </Link>
                             </li>
 
                             <li 
-                                className={`nav-item ${
+                                className={` ${
                                     props.location.pathname === "/about" ? "active" : ""
                                 }`}
                             >
-                                <Link className="nav-link" to="/about">
+                                <Link to="/about">
                                     About
                                 </Link>
                             </li>
 
                             <li
-                                className={`nav-item ${
+                                className={` ${
                                     props.location.pathname === "/contact" ? "active" : ""
                                 }`}
                             >
-                                <Link className="nav-link" to="/contact">
+                                <Link  to="/contact">
                                     Contact Me
                                 </Link>
                             </li>
                             <li
-                                 className={`nav-item ${
+                                 className={` ${
                                  props.location.pathname === "/resume" ? "active" : ""
                                 }`}
                             > 
-                                <Link className="nav-link" to="/resume">
+                                <Link  to="/resume">
                                     Resume    
                                 </Link>    
                             </li>

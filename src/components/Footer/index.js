@@ -8,22 +8,22 @@ function Footer() {
    
             
 
-            <footer className="flex-row px-1 bg-dark fixed-bottom">
+            <footer>
 
-                <div className="external_links margin-left ">
-                    <ul className="nav">
-                        <li className="nav-item">
+                <div>
+                    <ul>
+                        <li>
                             <a target="_blank" rel="noreferrer" className="m-0 text-right " href= "https://www.linkedin.com/in/ethan-torres-425622b4/">LinkedIn</a>
                         </li>
 
-                        <li className="nav-item">
+                        <li>
                         <a target="_blank" rel="noreferrer" className="m-0 text-right " href= "https://www.github.com/Ottiemobile">Github</a>
                         </li>
                         
                     </ul>
                 </div>
 
-                <p className="m-0 text-right text-white">
+                <p>
                     Copyright &copy; Ethan Torres 2020
                 </p>
                     

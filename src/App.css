@@ -66,3 +66,30 @@ h1 {
   background-color: #14213d ;
  
 }
+
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #14213d;
+  color: white;
+  text-align: center;
+}
+
+.navigation {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-between;
+  align-items: center;
+  list-style: none;  
+}
+
+.navigation {
+  padding: 10px 5px;
+  font-size: 4vw;
+  font-weight:lighter;
+  justify-content: space-between;
+  text-decoration: none;
+}
