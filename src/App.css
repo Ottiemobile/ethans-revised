@@ -79,17 +79,20 @@ footer {
 }
 
 .navigation {
+  margin: 0;
+  padding: 0;
   display: flex;
   flex-wrap: wrap;
   justify-content:space-between;
-  align-items: center;
+  text-align: center;
   list-style: none;  
 }
 
-.navigation {
+.nav-item {
   padding: 10px 5px;
   font-size: 4vw;
   font-weight:lighter;
   justify-content: space-between;
   text-decoration: none;
+  text-align:center;
 }

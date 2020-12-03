@@ -21,9 +21,9 @@ function Navigation(props) {
                                     props.location.pathname=== "/" ? "active" : ""
                                 }`}
                             >
-                                <Link  to="/">
+                                <Link className="nav-item" to="/">
                                     Home
-                                    <span></span>
+                                    <span className="sr-only">(current)</span>
                                 </Link>
                             </li>
 
@@ -32,7 +32,7 @@ function Navigation(props) {
                                     props.location.pathname === "/about" ? "active" : ""
                                 }`}
                             >
-                                <Link to="/about">
+                                <Link className="nav-item" to="/about">
                                     About
                                 </Link>
                             </li>
@@ -42,7 +42,7 @@ function Navigation(props) {
                                     props.location.pathname === "/contact" ? "active" : ""
                                 }`}
                             >
-                                <Link  to="/contact">
+                                <Link className="nav-item" to="/contact">
                                     Contact Me
                                 </Link>
                             </li>
@@ -51,7 +51,7 @@ function Navigation(props) {
                                  props.location.pathname === "/resume" ? "active" : ""
                                 }`}
                             > 
-                                <Link  to="/resume">
+                                <Link className="nav-item" to="/resume">
                                     Resume    
                                 </Link>    
                             </li>
